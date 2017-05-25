@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/bg_one"
+
+    tools:context="com.example.rob.restruantv1.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="The Alibi   "
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/Beermenu"
+        style="?android:textAppearanceSmall"
+        android:layout_width="224dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/wood_button"
+        android:onClick="onButtonClick"
+        android:text="@string/beer_list"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Winemenu"
+        style="?android:textAppearanceSmall"
+        android:layout_width="224dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/wood_button"
+        android:onClick="onButton2Click"
+        android:text="@string/wine_list"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Foodmenu"
+        style="?android:textAppearanceSmall"
+        android:layout_width="224dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onButton3Click"
+        android:background="@drawable/wood_button"
+        android:text="@string/food_list"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Feedback"
+        style="?android:textAppearanceSmall"
+        android:layout_width="224dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/wood_button"
+        android:onClick="onButton4Click"
+        android:text="@string/email_feedback"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

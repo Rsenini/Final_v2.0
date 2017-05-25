@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Restruantv1</string>
+    <string name="email_feedback">Email Feedback</string>
+    <string name="food_list">Food List</string>
+    <string name="beer_list">Beer List</string>
+    <string name="wine_list">Wine List</string>
+    <string name="feedback">Feedback</string>
+    <string name="leave_your_feedback_here">Leave your feedback here</string>
+    <string name="send">Send</string>
+    <string name="the_alibi">The Alibi</string>
+    <string name="the_alibi2">the_alibi</string>
+</resources>

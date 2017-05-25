@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "996893703593",
+    "firebase_url": "https://restruantv1.firebaseio.com",
+    "project_id": "restruantv1",
+    "storage_bucket": "restruantv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996893703593:android:2a5f815962655d9e",
+        "android_client_info": {
+          "package_name": "com.example.rob.restruantv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996893703593-22ge0ne5gluuv7i344jc8msio12q4o9n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rob.restruantv1",
+            "certificate_hash": "10a8c2e517a088c4f7b9143f6f9355c2f985dadd"
+          }
+        },
+        {
+          "client_id": "996893703593-rote15a7lrc6h3au38hash86usuoitc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3y3ZBqRwS8faA3MzGtfDdaBS1Qrg4qdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996893703593-rote15a7lrc6h3au38hash86usuoitc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
